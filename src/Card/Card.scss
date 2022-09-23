@@ -1,0 +1,24 @@
+$GrayishBlue: hsl(220, 15%, 55%);
+
+body {
+    background-color: $GrayishBlue; 
+}
+
+.container {
+    background-color: #fff;
+    width: 500px;
+    height: 650px;
+    border-radius: 5%;
+    margin: 10% auto;
+    padding: 2% 0%;
+}
+
+.qrBox > img{
+    width: 90%;
+    border-radius: 5%;
+}
+
+.cardText {
+    margin: 5%;
+    font-size: 1.1em;
+}
