@@ -8,8 +8,8 @@ function Card() {
             <img src="/images/image-qr-code.png" alt="QR" />
         </div>
         <div className="cardText">
-            <h2>Improve your Front-End skills by building proyects</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt doloribus molestiae officiis</p>
+            <h3>Improve your front-end skills by building proyects</h3>
+            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
         </div>
     </div>
   )
