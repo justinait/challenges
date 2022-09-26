@@ -27,10 +27,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![image](https://user-images.githubusercontent.com/81998551/192335243-2faacf10-031b-4d67-9b11-f05a466e6e3d.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
