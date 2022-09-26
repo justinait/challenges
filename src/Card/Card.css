@@ -1,5 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-color: #d6e2f0;
+  min-width: 375px;
 }
 
 .container {
@@ -29,5 +37,19 @@ body {
   font-size: 15px;
   font-weight: 400;
   color: #7b879d;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 20vw;
+    padding: 1% 0%;
+  }
+  .cardText > h3 {
+    font-size: medium;
+    margin: 5% 0%;
+  }
+  .cardText > p {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=Card.css.map */

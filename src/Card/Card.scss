@@ -3,8 +3,15 @@ $white: hsl(0, 0%, 100%);
 $lightGray: hsl(212, 45%, 89%);
 $darkBlue: hsl(218, 44%, 22%);
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: $lightGray; 
+    min-width: 375px;
 }
 
 .container {
@@ -34,4 +41,18 @@ body {
     font-size: 15px;
     font-weight: 400;
     color: $grayishBlue;
+}
+
+@media (min-width: 1440px){
+    .container {
+        width: 20vw;
+        padding: 1% 0%;
+    }
+    .cardText > h3 {
+        font-size:medium;
+        margin: 5% 0%;
+    }       
+    .cardText > p {
+        font-size: 12px;
+    }
 }
